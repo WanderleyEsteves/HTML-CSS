@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style></style>
-    <title>Document</title>
+    <title>Documentos</title>
+
+    <style>
+body{
+    background-image: url(Imagens/WALLPAPER3.jpg);
+}
+div.quadrado {
+
+    display: inline-block;
+    border: 2px solid rgb(194, 60, 60);
+    border-radius: 10px;
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+}
+
+div#q1{
+background-color: rgb(161, 255, 10);
+}
+
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#q3{
+    background-image: url('Imagens/WALLPAPER3.jpg');
+}
+
+    </style>
 </head>
 <body>
-        <h1>Olá, Mundo!</h1>
+       <div class="quadrado" id="q1"></div>
+
+       <div class="quadrado" id="q2"></div>
+
+       <div class="quadrado" id="q3"></div>
+
 </body>
 </html>
